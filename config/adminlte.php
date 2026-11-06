@@ -790,12 +790,34 @@ return [
             'can' => 'manage-blog',
         ],
         [
-            'text' => 'pages',
-            'url' => 'admin/pages',
+            'text' => 'Jurusan',
+            'url' => 'jurusan',
             'icon' => 'bi bi-file-earmark',
-            'label' => 4,
+            
             'label_color' => 'success',
         ],
+        [
+            'text' => 'Jenjang',
+            'url' => 'admin/pages',
+            'icon' => 'bi bi-file-earmark',
+            
+            'label_color' => 'success',
+        ],
+        [
+            'text' => 'Kelas',
+            'url' => 'admin/pages',
+            'icon' => 'bi bi-file-earmark',
+            
+            'label_color' => 'success',
+        ],
+        [
+            'text' => 'Siswa',
+            'url' => 'admin/pages',
+            'icon' => 'person-circle',
+            
+            'label_color' => 'success',
+        ],
+        
         ['header' => 'account_settings'],
         [
             'text' => 'profile',
